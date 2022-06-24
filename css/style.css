@@ -1,0 +1,110 @@
+.left {
+  width: 30%;
+  float: left;
+  text-align: left;
+}
+
+.right {
+  width: 70%;
+  float: left;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+}
+.left {
+  background: rgb(233, 229, 229);
+  height: 730px;
+}
+.job {
+  background: rgb(207, 204, 204);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.about {
+  padding: 4px;
+}
+
+.about-item {
+  width: 50%;
+  border: 2px inset rgb(233, 229, 229);
+  border-radius: 15px;
+  text-align: center;
+}
+
+h1,
+h2 {
+  padding-left: 20px;
+}
+
+.surname {
+  color: rgb(85, 21, 21);
+}
+
+.menu {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: gray;
+  padding: 10px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+
+  text-align: right;
+  letter-spacing: 0.03em;
+}
+.menu .menu-item:first-child {
+  background-color: #2196f3;
+  color: #f5f4fa;
+}
+
+.menu-item {
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 4px 10px;
+}
+.contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--description-color);
+}
+
+.contact:focus,
+.contact:hover {
+  color: var(--accent-color);
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.btn:focus,
+.btn:hover {
+  background: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+/* ========= index.html =========*/
